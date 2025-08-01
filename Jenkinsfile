@@ -6,7 +6,7 @@ pipeline{
         branch 'deploy'
       }
         steps{
-            echo"in deploy branch"    
+            echo "in deploy branch"    
   }
   
 }
@@ -15,7 +15,7 @@ pipeline{
         branch 'test'
       }
         steps{
-            echo"in test branch"    
+            echo "in test branch"    
   }
   
 }
@@ -24,7 +24,7 @@ pipeline{
         branch 'main'
       }
         steps{
-            echo"in main branch"    
+            echo "in main branch"    
   }
   
 }
