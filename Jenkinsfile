@@ -7,9 +7,9 @@ pipeline{
       }
         steps{
             echo "In deploy branch !!!"    
-  }
+          }
   
-}
+      }
      stage('build'){
       when {
         branch 'test'
@@ -26,7 +26,6 @@ pipeline{
         steps{
             echo "in main branch"    
   }
-  
-}
   }
+}
 }
