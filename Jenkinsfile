@@ -6,7 +6,7 @@ pipeline{
         branch 'deploy'
       }
         steps{
-            echo "in deploy branch"    
+            echo "In deploy branch !!!"    
   }
   
 }
