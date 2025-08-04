@@ -3,28 +3,28 @@ pipeline{
   stages{
     stage('checkout'){
       when {
-        branch'deploy'
+        branch 'deploy'
       }
         steps{
-            echo"in deploy branch"    
+            echo "in deploy branch"    
   }
   
 }
      stage('build'){
       when {
-        branch'test'
+        branch 'test'
       }
         steps{
-            echo"in test branch"    
+            echo "in test branch"    
   }
   
 }
     stage('upload'){
       when {
-        branch'main'
+        branch 'main'
       }
         steps{
-            echo"in main branch"    
+            echo "in main branch"    
   }
   
 }
